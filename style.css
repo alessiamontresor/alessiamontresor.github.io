@@ -20,7 +20,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #84e9e9;
+    background-color: #000000;
   }
 /* Hero Section */
 
