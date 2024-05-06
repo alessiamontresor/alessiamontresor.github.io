@@ -13,14 +13,14 @@ ul {
   
   li a {
     display: block;
-    color: rgb(85, 146, 154);
+    color: rgb(10, 15, 15);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #000000;
+    background-color: #4c9a9c;
   }
 /* Hero Section */
 
