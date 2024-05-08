@@ -108,3 +108,35 @@ body {
   padding: 0;
 }
 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titolo della Pagina 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Regole CSS specifiche per la seconda pagina */
+        body {
+            font-family: "Georgia", serif;
+        }
+        h1 {
+            font-family: "Times New Roman", serif;
+        }
+        p {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titolo della Pagina 2</h1>
+    </header>
+    <main>
+        <p>Questo è un paragrafo di esempio sulla seconda pagina.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Il Tuo Sito</p>
+    </footer>
+</body>
+</html>
