@@ -4,7 +4,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #67c3cf;
+    background-color: #64b9c5;
   }
   
   li {
@@ -20,7 +20,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #4c9a9c;
+    background-color: #509c9f;
   }
 /* Hero Section */
 
