@@ -41,3 +41,33 @@ div {font-family: Georgia, "Times New Roman", serif;}
   margin: 0 auto; /* Centra il contenitore orizzontalmente */
   padding: 20px; /* Aggiunge spazio intorno al testo */
 }
+
+/* Stili di base per l'header */
+header {
+  background-color: #333; /* Colore di sfondo */
+  color: #fff; /* Colore del testo */
+  padding: 20px; /* Spaziatura interna */
+  text-align: center; /* Allineamento del testo al centro */
+}
+
+/* Stili per il titolo dell'header */
+header h1 {
+  margin: 0; /* Rimuove il margine esterno del titolo */
+}
+
+/* Stili per la barra di navigazione nell'header */
+header nav {
+  margin-top: 10px; /* Aggiunge spazio sopra la barra di navigazione */
+}
+
+/* Stili per i link nella barra di navigazione */
+header nav a {
+  color: #fff; /* Colore del testo dei link */
+  text-decoration: none; /* Rimuove la sottolineatura dai link */
+  margin: 0 10px; /* Aggiunge margine tra i link */
+}
+
+/* Stili per i link nella barra di navigazione al passaggio del mouse */
+header nav a:hover {
+  text-decoration: underline; /* Sottolinea i link al passaggio del mouse */
+}
