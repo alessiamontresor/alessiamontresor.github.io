@@ -101,3 +101,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
