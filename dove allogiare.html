@@ -75,7 +75,6 @@ per chi cerca località poco affollate anche in alta stagione.<br>
 Si tratta inoltre di una delle zone dove passare il tempo in modo unico senza dover stare al mare o in spiaggia.<br>
 Tra queste i centri migliori dove passare le vacanze sono:<br>
 Santa Maria Navarrese o Tortolì. Se scegliete questa parte della Sardegna, ricordatevi che l’auto è indispensabile.</p>
-<img src="foto sardegna/spiagge-nord-sardegna.jpg"  alt="Sardegna">
 
 
 <h1>La Sardegna del Sud</h1>
@@ -105,7 +104,73 @@ Questa parte dell’isola è ideale per chi ama soggiornare in agriturismo,<br>
 Una delle località migliori dove alloggiare in Sardegna della Penisola di Sinis è sicuramente Oristano.<br>
 Si tratta di una località tranquilla e poco mondana, il mare e le spiagge sono molto belle e se non ti piace la ressa delle spiagge settentrionali,<br>
 questa è una delle zone meno affollate anche ad agosto.<br>
-<img src="foto sardegna/sardegna del nord"  alt="Sardegna">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Automatico</title>
+    <style>
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .fade {
+            animation: fade 2s linear infinite;
+        }
+
+        @keyframes fade {
+            0% {opacity: 0;}
+            25% {opacity: 1;}
+            75% {opacity: 1;}
+            100% {opacity: 0;}
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="foto sardegna 2/licensed-image.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="foto sardegna 2/licensed-imageeeeeeeee.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="foto sardegna 2/licensed-.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="foto sardegna 2/licensed-image (1).jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="foto sardegna 2/sardegna del nord.jpg" style="width:100%">
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Cambia immagine ogni 2 secondi
+        }
+    </script>
+</body>
+</html>
+
 </body>
 </html>
 
