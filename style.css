@@ -49,3 +49,9 @@ footer {
   text-align: center; /* Allineamento del testo al centro */
 }
 
+.margin {
+  margin-top: 10px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  }
