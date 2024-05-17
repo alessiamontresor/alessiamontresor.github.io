@@ -24,7 +24,30 @@
       <title>Dove alloggiare</title>
 
 
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">    
+      
+      <style>
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .fade {
+            animation: fade 4s linear infinite;
+        }
+
+        @keyframes fade {
+            0% {opacity: 0;}
+            25% {opacity: 1;}
+            75% {opacity: 1;}
+            100% {opacity: 0;}
+        }
+    </style>
   </head>
   <body>
 
@@ -112,32 +135,9 @@ il mare e le spiagge sono molto belle e se non ti piace la ressa delle spiagge s
 </div>
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slideshow Automatico</title>
-    <style>
-        .slideshow-container {
-            max-width: 800px;
-            position: relative;
-            margin: auto;
-        }
 
-        .mySlides {
-            display: none;
-        }
 
-        .fade {
-            animation: fade 4s linear infinite;
-        }
 
-        @keyframes fade {
-            0% {opacity: 0;}
-            25% {opacity: 1;}
-            75% {opacity: 1;}
-            100% {opacity: 0;}
-        }
-    </style>
-</head>
-<body>
     <div class="slideshow-container">
         <div class="mySlides fade">
             <img src="foto sardegna 2/licensed-image.jpg" style="width:100%">
@@ -172,24 +172,11 @@ il mare e le spiagge sono molto belle e se non ti piace la ressa delle spiagge s
             setTimeout(showSlides, 2000); // Cambia immagine ogni 2 secondi
         }
     </script>
-</body>
-</html>
+
 <br>
 <br>
 
-</body>
-</html>
 
-
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La tua Pagina</title>
-    <link rel="stylesheet" href="style.css"> <!-- Collegamento al tuo file CSS -->
-</head>
-<body>
     <header>
         <!-- Header -->
     </header>
