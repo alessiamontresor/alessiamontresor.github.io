@@ -1,5 +1,5 @@
 /*navigation*/
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,11 +7,11 @@ ul {
     background-color: #7ed6e1;
   }
   
-  li {
+  li.nav {
     float: left;
   }
   
-  li a {
+  li.nav a {
     display: block;
     color: rgb(10, 15, 15);
     text-align: center;
@@ -19,7 +19,7 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li.nav a:hover:not(.active) {
     background-color: #509c9f;
   }
 /* Hero Section */
