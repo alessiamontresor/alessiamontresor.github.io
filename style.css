@@ -65,7 +65,7 @@ div {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
 
 footer {
   background-color: #6dcfd6; /* Colore di sfondo */
-  color: #fff; /* Colore del testo */
+  color: #000000; /* Colore del testo */
   padding: 20px; /* Spaziatura interna */
   text-align: center; /* Allineamento del testo al centro */
 }
@@ -76,3 +76,4 @@ footer {
   margin-bottom: 10px;
   margin-left: 10px;
   }
+
